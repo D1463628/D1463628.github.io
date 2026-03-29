@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>奇幻運勢占卜站</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <h1>🔮 奇幻運勢占卜站</h1>
+      <p>按下按鈕，看看你今天的工作、學業、愛情與金錢運勢！</p>
+    </header>
+
+    <main class="card">
+      <div class="controls">
+        <button id="fortuneBtn">開始占卜</button>
+        <button id="resetBtn">再占卜一次</button>
+      </div>
+
+      <section id="resultArea" class="result hidden">
+        <h2 id="fortuneTitle">你的運勢結果</h2>
+
+        <div class="fortune-grid">
+          <div class="fortune-box">
+            <h3>工作運</h3>
+            <p id="workResult"></p>
+          </div>
+
+          <div class="fortune-box">
+            <h3>學業運</h3>
+            <p id="studyResult"></p>
+          </div>
+
+          <div class="fortune-box">
+            <h3>愛情運</h3>
+            <p id="loveResult"></p>
+          </div>
+
+          <div class="fortune-box">
+            <h3>金錢運</h3>
+            <p id="moneyResult"></p>
+          </div>
+        </div>
+
+        <div class="summary-box">
+          <h3>今日總結</h3>
+          <p id="summaryResult"></p>
+        </div>
+
+        <div class="ending-box">
+          <h3>神秘結語</h3>
+          <p id="endingResult"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 奇幻運勢占卜站 | 靜態網站作業作品</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
